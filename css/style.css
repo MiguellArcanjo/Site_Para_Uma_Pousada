@@ -1,0 +1,257 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+}
+
+.container-nav {
+    background-color: #fff;
+    /* position: fixed;
+    top: 0; */
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.links-nav {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link-topo {
+    text-decoration: none;
+    color: gray;
+}
+
+.titulo-topo {
+    font-weight: normal;
+}
+
+.azul {
+    color: rgb(81, 115, 227);
+}
+
+.imagem-fundo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: url("/img/img-fundo.jpg");
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 250px 0 300px 0;
+    min-width: 900px;
+}
+
+.imagem-fundo::before {
+    content: "";
+    background-color: rgb(10, 154, 122);
+    width: 28%;
+    height: 28%;
+    opacity: 0.7;
+    position: absolute;
+    margin: 10px auto;
+    right: 0;
+    left: 0;
+    min-width: 500px;
+}
+
+.imagem-fundo div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+
+    z-index: 1;
+}
+
+.imagem-fundo h1 {
+    font-size: 52px;
+}
+
+.imagem-fundo p {
+    font-size: 22px;
+}
+
+.inicio-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 800px;
+
+}
+
+.inicio-secao h1, h2 {
+    font-weight: normal;
+    color: gray;
+}
+
+.inicio-secao p {
+    line-height: 10px;
+    color: gray;
+}
+
+.galeria-quartos {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    min-width: 900px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 30%;
+}
+
+.card img{
+    width: 80%;
+}
+
+.card div {
+    padding-bottom: 13px;
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid rgb(4, 106, 4);
+
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+}
+
+.mapa {
+    margin-top: 20px;
+    width: 100%;
+    min-width: 900px;
+}
+
+.descricao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 800px;
+
+}
+
+.card-descricao {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    width: 40%;
+    margin-left: 20px;
+    min-width: 500px;
+}
+
+.img-descricao {
+    margin: 20px;
+    height: 150px;
+    width: 110px;
+}
+
+.card-5 {
+    justify-content: flex-start;
+    display: flex;
+    width: 40%;
+    margin-left: 20px;
+    min-width: 500px;
+}
+
+.texto5 {
+    width: 700px;
+}
+
+.rodape {
+    margin-top: 50px;
+    background: rgb(22, 93, 73);
+    width: 100%;
+    color: #fff;
+    min-width: 900px;
+}
+
+.secoes-rodape {
+    display: flex;
+    justify-content: space-around;
+}
+
+.s1, .s2, .s3, .s4 {
+    display: flex;
+    align-items: center;
+}
+
+.s1 a, .s2 a, .s3 a, .s4 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.s2::before {
+    content: "";
+    background-image: url("/img/icones/endereco.png");
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin-right: 10px;
+    min-width: 50px;
+}
+
+.s3::before {
+    content: "";
+    background-image: url("/img/icones/telefone.png");
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin-right: 12px;
+    min-width: 50px;
+}
+
+.s4::before {
+    content: "";
+    background-image: url("/img/icones/calendario.png");
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin-right: 15px;
+}
+
+.direitos {
+    background: rgb(22, 93, 73);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-width: 900px;
+}
+
+.direitos p {
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.titulo-rodape {
+    font-size: 25px;
+    font-weight: bold;
+}
