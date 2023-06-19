@@ -14,5 +14,97 @@
     background-size: cover;
     color: #fff;
     padding: 200px 0 10px 0;
+    min-width: 1300px;
+}
+
+
+.quartos-solteiro {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
     min-width: 900px;
+}
+
+.cardQuartos {
+    display: flex;
+    /* flex-direction: s; */
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 30%;
+    margin: -40px;
+    min-width: 500px;
+
+}
+
+.cardQuartos img{
+    width: 80%;
+    height: 400px;
+}
+
+.cardQuartos div {
+    padding-bottom: 13px;
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid rgb(4, 106, 4);
+
+}
+
+.lista {
+    margin: 60px;
+}
+
+.listacima {
+    margin-top: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    /* min-width: 900px; */
+    justify-content: space-evenly;
+}
+
+.lista ul {
+    margin-right: 100px;
+    margin-top: 90px;
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 1000px;
+    justify-content: space-between;
+}
+
+.lista ul li {
+    /* margin-left: 200px; */
+    color: gray;
+}
+
+.lista h3 {
+    text-align: center;
+    color: gray;
+    min-width: 1300px;
+
+}
+
+.inicio-quartos {
+    min-width: 1300px;
+}
+
+.ar {
+    margin-right: 70px;
+}
+
+.ar2 {
+    margin-right: 30px;
+}
+
+.ar3 {
+    margin-right: 30px;
+}
+
+.rodapequarto {
+    min-width: 1200px;
+}
+
+.direitosquartos {
+    min-width: 1200px;
 }
