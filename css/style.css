@@ -22,8 +22,8 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    
 }
-
 
 .links-nav {
     width: 30%;
@@ -39,6 +39,10 @@ header {
 
 .titulo-topo {
     font-weight: normal;
+    text-decoration: none;
+    color: gray;
+    font-size: 30px;
+
 }
 
 .azul {
@@ -101,9 +105,11 @@ header {
 .inicio-secao h1, h2 {
     font-weight: normal;
     color: gray;
+    font-size: 30px;
 }
 
 .inicio-secao p {
+    font-size: 16px;
     line-height: 10px;
     color: gray;
 }
